@@ -1,0 +1,11 @@
+html, body{
+    background-color: #FDF9EE;
+    background-image: url(/bottom_right_background.svg), url(/bottom_left_background.svg), url(/top_left_background.svg);
+    background-position: bottom right, bottom left, top left;
+    background-attachment: fixed;
+    background-size: auto 35%, auto 35%, auto 20%;
+    background-repeat: no-repeat;
+    font-family: "Atkinson Hyperlegible";
+    height: 100vh;
+    overflow: hidden;
+}
