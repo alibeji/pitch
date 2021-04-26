@@ -5,6 +5,7 @@
   >
     <h1>The Grown-up applying for the MSc. in</h1>
     <div class="pencil-wrapper">
+      <h4>Assets and code by Ali Beji</h4>
       <img src="/pencil.svg" />
     </div>
   </div>
@@ -38,9 +39,12 @@ export default {
   right: 0;
   bottom: 2rem;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.main .pencil-wrapper h4 {
+  margin-bottom: 1rem;
 }
 .main .pencil-wrapper img {
   width: 500px;
