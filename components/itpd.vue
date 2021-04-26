@@ -5,7 +5,6 @@
       'second-slide': passingData == 2,
       'third-slide': passingData == 3,
       'fourth-slide': passingData == 4,
-      'fith-slide': passingData == 5,
     }"
   >
     <svg
@@ -53,7 +52,7 @@ export default {
   justify-content: center;
   position: absolute;
   height: fit-content;
-  top: 52vh;
+  top: 54vh;
   right: 0rem;
   transition: ease all 1s;
 }

@@ -322,24 +322,23 @@ export default {
   display: none;
 }
 .main .illustration svg #table {
-  display: block;
+  visibility: hidden;
 }
 .main .illustration svg #age14 {
-  display: none;
-  animation: show 5s 10s;
+  visibility: show;
 }
 @keyframes show {
   0% {
-    display: none;
+    visibility: hidden;
   }
   1% {
-    display: block;
+    visibility: visible;
   }
   99% {
-    display: block;
+    visibility: visible;
   }
   100% {
-    display: none;
+    visibility: hidden;
   }
 }
 .main h2 {
