@@ -3,7 +3,7 @@
     class="main"
     :class="{ passed: passingData > 5, upcoming: passingData < 5 }"
   >
-    <h1>The Grown Up applying for the MSc. in</h1>
+    <h1>The Grown-up applying for the MSc. in</h1>
     <div class="pencil-wrapper">
       <img src="/pencil.svg" />
     </div>
