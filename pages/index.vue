@@ -33,7 +33,7 @@ export default {
   mounted() {
     this._keyListener = function (e) {
       if (e.key === ' ' || e.key === 'Enter' || e.key === 'ArrowDown') {
-        // e.key.length > 0 for any key
+        // e.key.length > 0 for any key hello
         e.preventDefault()
 
         this.push()
