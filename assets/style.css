@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Atkinson Hyperlegible";
+    src: local("Atkinson Hyperlegible"),
+     url(~assets/fonts/Atkinson-Hyperlegible-Regular-102.ttf) format("truetype");
+}
 html, body{
     background-color: #FDF9EE;
     background-image: url(/bottom_right_background.svg), url(/bottom_left_background.svg), url(/top_left_background.svg);
